@@ -1,0 +1,142 @@
+/* *simple selector* */
+/* These select element based on their basic identifiers:element name, class, or id. */
+
+h3{
+color:gray
+}
+
+
+
+/class selector/
+
+/*selects element with a specific class.classes can be reused */
+
+.btn{
+    cursor:pointer;
+    boder:none;
+    padding:10px 20px;
+}
+
+.btn-primary{
+    background-color:blue;
+    color:white;
+}
+
+.text-highlight {}
+    background-color:yellow;
+    font-weight:
+
+
+    /* *** Grouping selector */
+    /*h1,h2,h3{
+      color:red;
+} */
+ 
+/*
+.container p{
+      color:red;
+} */
+
+/* **adjacent sibling selector (+) */
+/* selects an element that is immediately after another specific element. */
+
+/* h1+p {
+  font-style: italic;
+}
+  
+
+
+
+
+
+
+input[type="checkbox"] + label{
+     margin-left:10px;
+     font-weight: bold;
+} */
+ 
+
+/* **General Sibling Selector (~) */
+
+/* selects all sibling after a specified element.*/
+/* h2~p{
+   color: forestgreen;
+   border-left: 3px solid green;
+} */
+ 
+
+/ * ** PSEUDO-CLASS SELECTORS */
+/* Pseudo-classes select elements based on a particular state or condition. */
+
+/* User Action Pseudo-classes */
+
+/* .action-btn:hover{
+   background-color:darkgray;
+}
+   
+
+.action-btn:active{
+    background-color: navy;
+    transform: translate(10px);
+}
+    
+.input field:focus{
+
+    border-colour:blue;
+} */
+ 
+    color-box{
+        background - color:  #7c0eee;
+        padding: 20px;
+        color: : white
+    }      
+    
+    .transparent-box{
+
+        background-color: rgba(70,74 35,1);
+
+    } 
+
+    padding{
+        
+    color:white;
+    border: 2px solid #3498db;
+}
+
+
+/* BACKGROUND IMAGE */
+
+/* body{
+       background-image:url(`china.jpg);
+       background-size: contain;
+       background-repeat: no-repeat;
+       height:400px:
+       color:white;
+       padding:50px;
+} */
+ 
+
+
+/* * WHAT IS CSS BOS MODEL */
+
+/* Everything in css is a box.Every HTML element-whether it`s a paragraph,button,or div-is rendered as a rectangular box model describes how these boxes are structured and how they interact with each other */
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
