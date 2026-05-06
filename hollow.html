@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hallow Root</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: rgb(45, 6, 6);
+      color: white;
+    }
+
+    .site-header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding: 20px 40px;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .main-nav {
+      display: flex;
+      gap: 20px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .main-nav a,
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .hero,
+    #music,
+    #tour,
+    #gallery {
+      padding: 40px;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0 0 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin: 0 0 20px;
+    }
+
+    .listen-btn {
+      display: inline-block;
+      background-color: green;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .header-listen {
+      margin-left: auto;
+    }
+
+    footer {
+      padding: 20px 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">THE HOLLOW ROOT</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#music">Music</a>
+        <a href="#tour">Tour</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#shop">Shop</a>
+      </nav>
+      <a href="#listen" class="listen-btn header-listen">Listen Now</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1 class="hero-title">THE Hollow Root</h1>
+      <p>Roots run deep, music runs deeper.</p>
+      <a href="#listen" class="listen-btn">Listen Now</a>
+    </section>
+  </main>
+</body>
+
+</html>
